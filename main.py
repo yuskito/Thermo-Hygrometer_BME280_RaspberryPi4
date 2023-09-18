@@ -89,7 +89,7 @@ class GUI(tk.Frame, object):
 
         ImagePath_hum = path.join(path.dirname(__file__), "Hum_icon.png")
         ImagePath_Ctemp = path.join(path.dirname(__file__),
-                                    "../Thermo-Hygrometer-BME280-RaspberryPi4/Temp_Icon.png")
+                                    "./Temp_Icon.png")
         ImagePath_Ftemp = path.join(path.dirname(__file__), "Ftemp.png")
         ImagePath_Press = path.join(path.dirname(__file__), "Press_Icon.png")
 
