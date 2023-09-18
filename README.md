@@ -7,12 +7,12 @@ I made a Thermo-Hygrometer with BME280 and Raspberry Pi4.
 ## How it looks like 
 On the Raspberry Pi display, a window will show up like this and displays temperature (in Celsius and Fahrenheit), humidity and pressure.<br>
 
-![](../Thermo-Hygrometer-BME280-RaspberryPi4/.README_images/GUI_image.png)
+![](./.README_images/GUI_image.png)
 
 ## How it works
 - Raspberry Pi reads out sensor values from BME280 via I2C communication and Raspberry Pi display the information on a window on HDMI display.<br>
 
-![](../Thermo-Hygrometer-BME280-RaspberryPi4/.README_images/Diagram.png)
+![](./.README_images/Diagram.png)
 - 
 - Raspberry runs a code in Python. 
 - Tkinter is used for GUI part of code.
@@ -26,10 +26,10 @@ On the Raspberry Pi display, a window will show up like this and displays temper
 - BME280 is a sensor IC from Bosch. 
 It measures temperature, humidity and pressure.
 It has a very good accuracy.
-- I used BME280 module kit from Akiduki though, I think any modules with BME280 chio would work. <br>
+- I used BME280 module kit from Akiduki though, I think any modules with BME280 chip would work. <br>
    https://akizukidenshi.com/catalog/g/gK-09421/
 
-![](../Thermo-Hygrometer-BME280-RaspberryPi4/.README_images/BME280_image.png)
+![](./.README_images/BME280_image.png)
 
 3. Some jumper wires and solders
 
