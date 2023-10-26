@@ -89,6 +89,9 @@ class GUI(tk.Frame, object):
         self.rounded_rectangle = make_rounded_rectangle(320*multiply, 190*multiply, 620*multiply, 360*multiply, radius=25*multiply,
                                                         fill="khaki1")
 
+        fontsize = int (40*multiply)
+        font = ('Helvetica', fontsize, 'bold')
+
         self.canvas.create_text(170*multiply, 90*multiply, text=" %-6.1f°C" % (temperature),
                                 font = font, tag="tempC")
         self.canvas.create_text(485*multiply, 90*multiply, text=" %-6.1f °F" % (temperatureF),
