@@ -84,6 +84,9 @@ If you run the following command in the terminal,<br>
 - A window pops up, but the values are not from BME280, but pre-set constant values.<br>
 This mode is useful to identify the issue (hardware issue vs. software issue) and to develop the code with another computers without BME280<br><br>
 
+`$ python main.py --size 1.5`<br>
+- If you set the argument --size, you can change the size of the window and test size. For example, in the example above, the window size will be 1.5 times. The number can be spesifies as float. <br>
+
 ## 3dr party license
 This code uses "BME280" library from Switch Science with some modifications. <br>
 Copyright (c) 2018 Switch Science<br>
