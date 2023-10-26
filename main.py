@@ -90,13 +90,13 @@ class GUI(tk.Frame, object):
                                                         fill="khaki1")
 
         self.canvas.create_text(170*multiply, 90*multiply, text=" %-6.1f°C" % (temperature),
-                                font=('Helvetica 40 bold'), tag="tempC")
+                                font = font, tag="tempC")
         self.canvas.create_text(485*multiply, 90*multiply, text=" %-6.1f °F" % (temperatureF),
-                                font=('Helvetica 40 bold'), tag="tempF")
+                                font = font, tag="tempF")
         self.canvas.create_text(150*multiply, 275*multiply, text=" %6.1f %%" % (humidity),
-                                font=('Helvetica 40 bold'), tag="hum")
+                                font = font, tag="hum")
         self.canvas.create_text(460*multiply, 275*multiply, text=" %7.1f hPa" % (pressure / 100),
-                                font=('Helvetica 40 bold'), tag="press")
+                                font = font, tag="press")
 
         ImagePath_hum = path.join(path.dirname(__file__), "Hum_icon.png")
         ImagePath_Ctemp = path.join(path.dirname(__file__),
